@@ -106,7 +106,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="IronPython">
-      <Version>2.7.12</Version>
+      <Version>3.4.2</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
