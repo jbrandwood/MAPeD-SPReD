@@ -511,10 +511,10 @@
       <Version>3.3.3</Version>
     </PackageReference>
     <PackageReference Include="SkiaSharp.NativeAssets.Linux.NoDependencies">
-      <Version>2.88.9</Version>
+      <Version>3.116.1</Version>
     </PackageReference>
     <PackageReference Include="SkiaSharp.Views.WindowsForms">
-      <Version>2.88.9</Version>
+      <Version>3.116.1</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
