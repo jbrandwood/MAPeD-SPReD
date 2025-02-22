@@ -7,7 +7,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>SPReD</RootNamespace>
     <AssemblyName>SPReD-NES</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -156,6 +156,7 @@
     <Compile Include="..\src\MainForm.CHRBank.cs">
       <Link>MainForm.CHRBank.cs</Link>
       <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="..\src\MainForm.cs">
       <Link>MainForm.cs</Link>
@@ -168,22 +169,27 @@
     <Compile Include="..\src\MainForm.IO.cs">
       <Link>MainForm.IO.cs</Link>
       <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="..\src\MainForm.Layout.cs">
       <Link>MainForm.Layout.cs</Link>
       <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="..\src\MainForm.Palettes.cs">
       <Link>MainForm.Palettes.cs</Link>
       <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="..\src\MainForm.SprteTools.CHRData.cs">
       <Link>MainForm.SprteTools.CHRData.cs</Link>
       <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="..\src\MainForm.SprteTools.cs">
       <Link>MainForm.SprteTools.cs</Link>
       <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="..\src\palette_group.cs">
       <Link>palette_group.cs</Link>
@@ -220,6 +226,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <DependentUpon>Resources.resx</DependentUpon>
       <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="SPReD-NES.Designer.cs">
       <DependentUpon>SPReD-NES.settings</DependentUpon>
